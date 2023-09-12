@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Cetak N-Bilangan ganjil/genap</title>
 </head>
 <body>
         <h3><strong>Yuk Cetak n-bilangan ganjil / genap</strong></h3>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Hasilnya</title>
 </head>
 <body>
 
@@ -11,13 +11,13 @@
         $jumlah = $_POST["jumlah"];
 
         if($pilihan=="genap"){
-            for($i=2 ; $i<$jumlah*2+1 ; $i++){ 
+            for($i=0 ; $i<$jumlah*2 ; $i++){ 
                 if(($i+1)%2==0) 
                 continue; 
                 echo $i." "; 
             }
         }else{
-            for($i=0 ; $i<$jumlah*2+1 ; $i++){ 
+            for($i=0 ; $i<$jumlah*2 ; $i++){ 
                 if($i%2==0) 
                 continue; 
                 echo $i." ";
